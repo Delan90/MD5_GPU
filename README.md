@@ -1,6 +1,6 @@
 # MD5_GPU
 
-This code works under the CUDA simulation.
+This code works under the CUDA simulation && the NVIDIA GPU.
 
 The details about how to opimize the MD5 on GPU is described in the pdf file.
 
