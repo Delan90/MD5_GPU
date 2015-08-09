@@ -12,7 +12,7 @@ The 4 letter passwords found are as follows:
               
 We also found the password for 6 letters running it on the GPU cluster: 
               
-             <https://www.pdc.kth.se/resources/computers/zorn/hardware>
+https://www.pdc.kth.se/resources/computers/zorn/hardware
 
 The 6 letter passwords found are as follows:
 
