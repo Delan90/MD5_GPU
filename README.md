@@ -19,3 +19,4 @@ The 6 letter passwords found are as follows:
               joshua, energy, qwerty, rkqian
               
 Table 1 provides the performance statistics of the two version of the programs we developed for GPU in two stages. The unoptimized version was developed in the first stage and provided only parallel execution of the code block. In the second stage, the program was optimized with various techniques like loop unrolling, function coalescing and reduced memory accesses etc., to provide a better execution performance. As evident from the table, with the unoptimized version, the simulation cycles required to get the result is more than 5 times the cycles required for the optimized version. We observed that the simulation for our program on the TUB Ubuntu server takes on average 12 to 15 minutes to complete and provide the result.
+`my funtion`
