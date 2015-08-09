@@ -20,15 +20,15 @@ The 6 letter passwords found are as follows:
               
 Table 1 provides the performance statistics of the two version of the programs we developed for GPU in two stages. The unoptimized version was developed in the first stage and provided only parallel execution of the code block. In the second stage, the program was optimized with various techniques like loop unrolling, function coalescing and reduced memory accesses etc., to provide a better execution performance. As evident from the table, with the unoptimized version, the simulation cycles required to get the result is more than 5 times the cycles required for the optimized version. We observed that the simulation for our program on the TUB Ubuntu server takes on average 12 to 15 minutes to complete and provide the result.
 
-          ![My Unicorn](https://github.com/Delan90/MD5_GPU/blob/master/pic/table1.png)
+![My Unicorn](https://github.com/Delan90/MD5_GPU/blob/master/pic/table1.png)
 
 Table 2 provides the cache statistics of the two version of the program, unoptimized and optimized versions, as explained above. This table clearly illustrates the difference between the cache characteristics of the two versions. At the same time, it helps to figure out one prominent reason behind the difference in performance characteristics of the two versions as shown in the Table 1. It is very evident that the unoptimized version has a lot of L1 data cache accesses and almost 94% of these accesses result in misses which degrades the performance. In case of optimized version, the number of accesses to L1 data cache is lower and the number of misses are just 56. Although the number L1 instruction misses are higher in case of optimized version, it is still low and close to 10%.
 
-          ![My Unicorn](https://github.com/Delan90/MD5_GPU/blob/master/pic/table2.png)
+![My Unicorn](https://github.com/Delan90/MD5_GPU/blob/master/pic/table2.png)
 
 Table 3 provides the performance comparison between CPU and GPU in terms of execution time. We can clearly see the benefits achieved by the GPU version. The performance boost in terms of execution time speedup achieved is above 700.
 
-          ![My Unicorn](https://github.com/Delan90/MD5_GPU/blob/master/pic/table3.png)
+![My Unicorn](https://github.com/Delan90/MD5_GPU/blob/master/pic/table3.png)
 
 ##Explanations and observations
 
